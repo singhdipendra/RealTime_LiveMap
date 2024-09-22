@@ -22,7 +22,7 @@ io.on('connection',function (socket)  {
 app.get('/', (req, res) => {
     res.render('index');
 });
-git 
+
 server.listen(3000, () => {
     console.log('Server running on port 3000');
 });
